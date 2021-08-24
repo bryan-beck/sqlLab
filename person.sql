@@ -1,0 +1,44 @@
+-- CREATE TABLE person (
+-- id SERIAL PRIMARY KEY,
+-- person_fname VARCHAR(25),
+-- person_lname VARCHAR(25),
+-- person_age INT,
+-- person_height_cm FLOAT,
+-- city VARCHAR(50),
+-- favorite_color VARCHAR(25)
+-- );
+
+-- INSERT INTO person (person_fname, person_lname, person_age, person_height_cm, city, favorite_color)
+-- values ('bryan', 'beck', 31, 180.34, 'kingman', 'green'),('chris', 'vaz', 28, 170.18, 'houston', 'blue'),('justin', 'mac', 40, 150.26, 'salt lake', 'red'),('bruno', 'lars', 51, 190.51, 'boston', 'black'),('norman', 'bates', 21, 120.11, 'LA', 'pink')
+-- SELECT * FROM person
+-- WHERE person_height_cm is not null
+-- ORDER BY person_height_cm asc
+
+-- SELECT * FROM person
+-- WHERE person_height_cm is not null
+-- ORDER BY person_height_cm desc
+
+-- SELECT * FROM person
+-- WHERE person_age is not null
+-- ORDER BY person_age desc
+
+-- SELECT * FROM person
+-- WHERE person_age > 20
+-- SELECT * FROM person
+-- WHERE person_age < 20
+-- SELECT * FROM person
+-- WHERE person_age = 18
+-- SELECT * FROM person
+-- WHERE person_age >20 AND person_age <30 
+-- SELECT * FROM person
+-- WHERE person_age !=27
+-- SELECT * FROM person
+-- WHERE favorite_color <> 'red'
+-- SELECT * FROM person
+-- WHERE favorite_color <> 'red' AND favorite_color <> 'green'
+-- SELECT * FROM person
+-- WHERE favorite_color = 'orange ' and favorite_color = 'green'
+-- SELECT favorite_color FROM person
+-- WHERE favorite_color IN ( 'orange', 'green', 'blue');
+-- SELECT favorite_color FROM person
+-- WHERE favorite_color IN ( 'yellow', 'purple');
