@@ -1,0 +1,12 @@
+-- SELECT * FROM employee
+-- WHERE city LIKE '%Calgary%'
+-- SELECT MIN(birth_date) FROM employee
+-- WHERE birth_date IS NOT NULL
+-- SELECT MAX(birth_date) FROM employee
+-- WHERE birth_date IS NOT NULL
+-- SELECT * FROM employee
+-- WHERE employee_id IS NOT NULL
+-- SELECT * FROM employee
+-- WHERE reports_to = 2
+-- SELECT COUNT (*) FROM employee
+-- WHERE city LIKE '%Lethbridge%'

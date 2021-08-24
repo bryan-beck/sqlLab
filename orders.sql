@@ -1,0 +1,18 @@
+-- CREATE TABLE orders (
+-- order_id SERIAL PRIMARY KEY,
+-- person_id BIGSERIAL,
+-- product_name VARCHAR,
+-- product_price INT,
+-- quantity INT
+-- );
+-- INSERT INTO orders (product_name, product_price, quantity)
+-- VALUES ('mac n cheese', 5, 2), 
+-- ('steak and eggs', 15, 5), 
+-- ('basketball', 20, 1), 
+-- ('gameboy', 99, 2), 
+-- ('cpmouter', 299, 1);
+-- SELECT * FROM orders
+-- SELECT SUM(quantity) from orders
+-- SELECT SUM(product_price) from orders
+-- SELECT SUM(product_price) FROM orders
+-- where person_id =4
